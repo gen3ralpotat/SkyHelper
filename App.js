@@ -19,7 +19,9 @@ export default function App() {
 
   var d = (new Date()).getHours();
 
-  const bg = (d < 7 || d > 19) ? require("./assets/images/backgroundNight.jpg") : require("./assets/images/backgroundDay.jpg");
+  console.log(d);
+
+  const bg = (d < 7 || d >= 19) ? require("./assets/images/backgroundNight.jpg") : require("./assets/images/backgroundDay.jpg");
 
   return (
     <ImageBackground source={bg} resizeMode="cover" style={styles.background}>

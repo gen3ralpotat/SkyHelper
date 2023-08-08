@@ -2,13 +2,13 @@ import { NavigationContainer } from '@react-navigation/native';
 import { StyleSheet, Text, View } from 'react-native';
 import { createMaterialTopTabNavigator } from '@react-navigation/material-top-tabs';
 import EventsScreen from '../screens/EventsScreen';
-import FarmingScreen from '../screens/FarmingScreen';
+import FarmingNavigator from './FarmingNavigator';
 
 const Tab = createMaterialTopTabNavigator();
 
 const MainMenuNavigator = () => (
-    <Tab.Navigator screenOptions={{ tabBarStyle: styles.tabNavigator } }>
-        <Tab.Screen name="Farming" component={FarmingScreen}/>
+    <Tab.Navigator initialRouteName="Farming" screenOptions={{ tabBarStyle: styles.tabNavigator } }>
+        <Tab.Screen name="Farming" component={FarmingNavigator}/>
         <Tab.Screen name="Events" component={EventsScreen}/>
     </Tab.Navigator>
 );
