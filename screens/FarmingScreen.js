@@ -2,9 +2,10 @@ import { Pressable, StyleSheet, Text, View, Dimensions, Image } from 'react-nati
 import Screen from '../components/Screen';
 import treasureCandlesImage from '../assets/images/treasureCandles/treasureCandles.jpg';
 import seasonalCandlesImage from '../assets/images/seasonalCandles/seasonalCandles.jpg';
+import shardsImage from '../assets/images/shards/shards.jpg';
+import questsImage from '../assets/images/quests/quests.jpg';
 
 function FarmingScreen({ navigation }) {
-
     return (
         <Screen>
             <View style={styles.container}>
@@ -12,20 +13,29 @@ function FarmingScreen({ navigation }) {
                     <Image source={treasureCandlesImage} style={styles.image} resizeMode='contain'/>
                     <Text style={styles.iconText}>Treasure Candles</Text>
                 </Pressable>
-                <Pressable style={[styles.imageContainer, {marginLeft: 'auto'}]} onPress={() => {console.log("Seasonal Pressed")}}>
+                <Pressable style={[styles.imageContainer, {marginLeft: 'auto'}]} onPress={() => {navigation.navigate("SeasonalCandles")}}>
                     <Image source={seasonalCandlesImage} style={styles.image} resizeMode='contain'/>
                     <Text style={styles.iconText}>Seasonal Candles</Text>
                 </Pressable>
+                <Pressable style={[styles.imageContainer, {marginRight: 'auto'}]} onPress={() => {navigation.navigate("Shards")}}>
+                    <Image source={shardsImage} style={styles.image} resizeMode='contain'/>
+                    <Text style={styles.iconText}>Shards</Text>
+                </Pressable>
+                <Pressable style={[styles.imageContainer, {marginLeft: 'auto'}]} onPress={() => navigation.navigate("Quests", {screen: "QuestsMenu"})}>
+                    <Image source={questsImage} style={styles.image} resizeMode='contain'/>
+                    <Text style={styles.iconText}>Dailies Help</Text>
+                </Pressable>
             </View>
         </Screen>
-    )
-}
+    );
+};
 
 const styles = StyleSheet.create({
     container: {
         width: '100%',
         justifyContent: 'center',
-        flexDirection: 'row'
+        flexDirection: 'row',
+        flexWrap: 'wrap'
     },
     image: {
         width: Dimensions.get('window').width * 0.43,
@@ -40,7 +50,7 @@ const styles = StyleSheet.create({
         backgroundColor: 'rgba(34, 34, 34, 0.70)',
         alignItems: 'center',
         borderRadius: 10,
-        margin: 7,
+        marginHorizontal: 7,
         marginTop: 15
     },
     iconText: {
@@ -50,4 +60,4 @@ const styles = StyleSheet.create({
     }
 });
 
-export default FarmingScreen
+export default FarmingScreen;

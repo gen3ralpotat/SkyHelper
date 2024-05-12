@@ -1,8 +1,12 @@
-import { StyleSheet, View } from 'react-native';
+import { StyleSheet, View, SafeAreaView, ScrollView } from 'react-native';
 
 function Screen({ children, style }) {
   return (
-    <View style={[styles.screen, style]}>{children}</View>
+    <SafeAreaView style={[styles.screen, style]}>
+      <ScrollView>
+        {children}
+      </ScrollView>
+    </SafeAreaView>
   );
 }
 

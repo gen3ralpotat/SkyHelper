@@ -1,0 +1,808 @@
+{
+    "1": {
+        "day": 1,
+        "type": "strong",
+        "realm": "prairie",
+        "location": "prairieCaves",
+        "rewards": {
+            "type": "ascended",
+            "amount": 2
+        },
+        "weekdaysExcluded": [
+            1,
+            2
+        ],
+        "times": {
+            "start": [
+                "07:48",
+                "13:48",
+                "19:48"
+            ],
+            "end": [
+                "11:48",
+                "17:48",
+                "23:48"
+            ]
+        }
+    },
+    "2": {
+        "day": 2,
+        "type": "regular",
+        "realm": "forest",
+        "location": "boneyard",
+        "rewards": {
+            "type": "wax",
+            "amount": 200
+        },
+        "weekdaysExcluded": [
+            0,
+            1
+        ],
+        "times": {
+            "start": [
+                "02:18",
+                "10:18",
+                "18:18"
+            ],
+            "end": [
+                "06:18",
+                "14:18",
+                "22:18"
+            ]
+        }
+    },
+    "3": {
+        "day": 3,
+        "type": "strong",
+        "realm": "valley",
+        "location": "villageOfDreams",
+        "rewards": {
+            "type": "ascended",
+            "amount": 2.5
+        },
+        "weekdaysExcluded": [
+            2,
+            3
+        ],
+        "times": {
+            "start": [
+                "02:28",
+                "08:28",
+                "14:28"
+            ],
+            "end": [
+                "06:28",
+                "12:28",
+                "18:28"
+            ]
+        }
+    },
+    "4": {
+        "day": 4,
+        "type": "regular",
+        "realm": "wasteland",
+        "location": "brokenTemple",
+        "rewards": {
+            "type": "wax",
+            "amount": 200
+        },
+        "weekdaysExcluded": [
+            0,
+            6
+        ],
+        "times": {
+            "start": [
+                "01:58",
+                "09:58",
+                "17:58"
+            ],
+            "end": [
+                "05:58",
+                "13:58",
+                "21:58"
+            ]
+        }
+    },
+    "5": {
+        "day": 5,
+        "type": "strong",
+        "realm": "vault",
+        "location": "jellyfishCove",
+        "rewards": {
+            "type": "ascended",
+            "amount": 3.5
+        },
+        "weekdaysExcluded": [
+            3,
+            4
+        ],
+        "times": {
+            "start": [
+                "03:38",
+                "09:38",
+                "15:38"
+            ],
+            "end": [
+                "07:38",
+                "13:38",
+                "19:38"
+            ]
+        }
+    },
+    "6": {
+        "day": 6,
+        "type": "regular",
+        "realm": "prairie",
+        "location": "villageIslands",
+        "rewards": {
+            "type": "wax",
+            "amount": 200
+        },
+        "weekdaysExcluded": [
+            0,
+            1
+        ],
+        "times": {
+            "start": [
+                "02:18",
+                "10:18",
+                "18:18"
+            ],
+            "end": [
+                "06:18",
+                "14:18",
+                "22:18"
+            ]
+        }
+    },
+    "7": {
+        "day": 7,
+        "type": "strong",
+        "realm": "forest",
+        "location": "forestEnd",
+        "rewards": {
+            "type": "ascended",
+            "amount": 2.5
+        },
+        "weekdaysExcluded": [
+            1,
+            2
+        ],
+        "times": {
+            "start": [
+                "07:48",
+                "13:48",
+                "19:48"
+            ],
+            "end": [
+                "11:48",
+                "17:48",
+                "23:48"
+            ]
+        }
+    },
+    "8": {
+        "day": 8,
+        "type": "regular",
+        "realm": "valley",
+        "location": "iceRink",
+        "rewards": {
+            "type": "wax",
+            "amount": 200
+        },
+        "weekdaysExcluded": [
+            0,
+            6
+        ],
+        "times": {
+            "start": [
+                "01:58",
+                "09:58",
+                "17:58"
+            ],
+            "end": [
+                "05:58",
+                "13:58",
+                "21:58"
+            ]
+        }
+    },
+    "9": {
+        "day": 9,
+        "type": "strong",
+        "realm": "wasteland",
+        "location": "crabFields",
+        "rewards": {
+            "type": "ascended",
+            "amount": 2.5
+        },
+        "weekdaysExcluded": [
+            2,
+            3
+        ],
+        "times": {
+            "start": [
+                "02:28",
+                "08:28",
+                "14:28"
+            ],
+            "end": [
+                "06:28",
+                "12:28",
+                "18:28"
+            ]
+        }
+    },
+    "10": {
+        "day": 10,
+        "type": "regular",
+        "realm": "vault",
+        "location": "starlightDesert",
+        "rewards": {
+            "type": "wax",
+            "amount": 200
+        },
+        "weekdaysExcluded": [
+            0,
+            1
+        ],
+        "times": {
+            "start": [
+                "02:18",
+                "10:18",
+                "18:18"
+            ],
+            "end": [
+                "06:18",
+                "14:18",
+                "22:18"
+            ]
+        }
+    },
+    "11": {
+        "day": 11,
+        "type": "strong",
+        "realm": "prairie",
+        "location": "sanctuaryIslands",
+        "rewards": {
+            "type": "ascended",
+            "amount": 3.5
+        },
+        "weekdaysExcluded": [
+            3,
+            4
+        ],
+        "times": {
+            "start": [
+                "03:38",
+                "09:38",
+                "15:38"
+            ],
+            "end": [
+                "07:38",
+                "13:38",
+                "19:38"
+            ]
+        }
+    },
+    "12": {
+        "day": 12,
+        "type": "regular",
+        "realm": "forest",
+        "location": "forestBrook",
+        "rewards": {
+            "type": "wax",
+            "amount": 200
+        },
+        "weekdaysExcluded": [
+            0,
+            6
+        ],
+        "times": {
+            "start": [
+                "01:58",
+                "09:58",
+                "17:58"
+            ],
+            "end": [
+                "05:58",
+                "13:58",
+                "21:58"
+            ]
+        }
+    },
+    "13": {
+        "day": 13,
+        "type": "strong",
+        "realm": "valley",
+        "location": "villageOfDreams",
+        "rewards": {
+            "type": "ascended",
+            "amount": 2.5
+        },
+        "weekdaysExcluded": [
+            1,
+            2
+        ],
+        "times": {
+            "start": [
+                "07:48",
+                "13:48",
+                "19:48"
+            ],
+            "end": [
+                "11:48",
+                "17:48",
+                "23:48"
+            ]
+        }
+    },
+    "14": {
+        "day": 14,
+        "type": "regular",
+        "realm": "wasteland",
+        "location": "battlefield",
+        "rewards": {
+            "type": "wax",
+            "amount": 200
+        },
+        "weekdaysExcluded": [
+            0,
+            1
+        ],
+        "times": {
+            "start": [
+                "02:18",
+                "10:18",
+                "18:18"
+            ],
+            "end": [
+                "06:18",
+                "14:18",
+                "22:18"
+            ]
+        }
+    },
+    "15": {
+        "day": 15,
+        "type": "strong",
+        "realm": "vault",
+        "location": "jellyfishCove",
+        "rewards": {
+            "type": "ascended",
+            "amount": 3.5
+        },
+        "weekdaysExcluded": [
+            2,
+            3
+        ],
+        "times": {
+            "start": [
+                "02:28",
+                "08:28",
+                "14:28"
+            ],
+            "end": [
+                "06:28",
+                "12:28",
+                "18:28"
+            ]
+        }
+    },
+    "16": {
+        "day": 16,
+        "type": "regular",
+        "realm": "prairie",
+        "location": "butterflyFields",
+        "rewards": {
+            "type": "wax",
+            "amount": 200
+        },
+        "weekdaysExcluded": [
+            0,
+            6
+        ],
+        "times": {
+            "start": [
+                "01:58",
+                "09:58",
+                "17:58"
+            ],
+            "end": [
+                "05:58",
+                "13:58",
+                "21:58"
+            ]
+        }
+    },
+    "17": {
+        "day": 17,
+        "type": "strong",
+        "realm": "forest",
+        "location": "elevatedClearing",
+        "rewards": {
+            "type": "ascended",
+            "amount": 3.5
+        },
+        "weekdaysExcluded": [
+            3,
+            4
+        ],
+        "times": {
+            "start": [
+                "03:38",
+                "09:38",
+                "15:38"
+            ],
+            "end": [
+                "07:38",
+                "13:38",
+                "19:38"
+            ]
+        }
+    },
+    "18": {
+        "day": 18,
+        "type": "regular",
+        "realm": "valley",
+        "location": "iceRink",
+        "rewards": {
+            "type": "wax",
+            "amount": 200
+        },
+        "weekdaysExcluded": [
+            0,
+            1
+        ],
+        "times": {
+            "start": [
+                "02:18",
+                "10:18",
+                "18:18"
+            ],
+            "end": [
+                "06:18",
+                "14:18",
+                "22:18"
+            ]
+        }
+    },
+    "19": {
+        "day": 19,
+        "type": "strong",
+        "realm": "wasteland",
+        "location": "graveyard",
+        "rewards": {
+            "type": "ascended",
+            "amount": 2
+        },
+        "weekdaysExcluded": [
+            1,
+            2
+        ],
+        "times": {
+            "start": [
+                "07:48",
+                "13:48",
+                "19:48"
+            ],
+            "end": [
+                "11:48",
+                "17:48",
+                "23:48"
+            ]
+        }
+    },
+    "20": {
+        "day": 20,
+        "type": "regular",
+        "realm": "vault",
+        "location": "starlightDesert",
+        "rewards": {
+            "type": "wax",
+            "amount": 200
+        },
+        "weekdaysExcluded": [
+            0,
+            6
+        ],
+        "times": {
+            "start": [
+                "01:58",
+                "09:58",
+                "17:58"
+            ],
+            "end": [
+                "05:58",
+                "13:58",
+                "21:58"
+            ]
+        }
+    },
+    "21": {
+        "day": 21,
+        "type": "strong",
+        "realm": "prairie",
+        "location": "birdNest",
+        "rewards": {
+            "type": "ascended",
+            "amount": 2.5
+        },
+        "weekdaysExcluded": [
+            2,
+            3
+        ],
+        "times": {
+            "start": [
+                "02:28",
+                "08:28",
+                "14:28"
+            ],
+            "end": [
+                "06:28",
+                "12:28",
+                "18:28"
+            ]
+        }
+    },
+    "22": {
+        "day": 22,
+        "type": "regular",
+        "realm": "forest",
+        "location": "boneyard",
+        "rewards": {
+            "type": "wax",
+            "amount": 200
+        },
+        "weekdaysExcluded": [
+            0,
+            1
+        ],
+        "times": {
+            "start": [
+                "02:18",
+                "10:18",
+                "18:18"
+            ],
+            "end": [
+                "06:18",
+                "14:18",
+                "22:18"
+            ]
+        }
+    },
+    "23": {
+        "day": 23,
+        "type": "strong",
+        "realm": "valley",
+        "location": "hermitValley",
+        "rewards": {
+            "type": "ascended",
+            "amount": 3.5
+        },
+        "weekdaysExcluded": [
+            3,
+            4
+        ],
+        "times": {
+            "start": [
+                "03:38",
+                "09:38",
+                "15:38"
+            ],
+            "end": [
+                "07:38",
+                "13:38",
+                "19:38"
+            ]
+        }
+    },
+    "24": {
+        "day": 24,
+        "type": "regular",
+        "realm": "wasteland",
+        "location": "brokenTemple",
+        "rewards": {
+            "type": "wax",
+            "amount": 200
+        },
+        "weekdaysExcluded": [
+            0,
+            6
+        ],
+        "times": {
+            "start": [
+                "01:58",
+                "09:58",
+                "17:58"
+            ],
+            "end": [
+                "05:58",
+                "13:58",
+                "21:58"
+            ]
+        }
+    },
+    "25": {
+        "day": 25,
+        "type": "strong",
+        "realm": "vault",
+        "location": "jellyfishCove",
+        "rewards": {
+            "type": "ascended",
+            "amount": 3.5
+        },
+        "weekdaysExcluded": [
+            1,
+            2
+        ],
+        "times": {
+            "start": [
+                "07:48",
+                "13:48",
+                "19:48"
+            ],
+            "end": [
+                "11:48",
+                "17:48",
+                "23:48"
+            ]
+        }
+    },
+    "26": {
+        "day": 26,
+        "type": "regular",
+        "realm": "prairie",
+        "location": "villageIslands",
+        "rewards": {
+            "type": "wax",
+            "amount": 200
+        },
+        "weekdaysExcluded": [
+            0,
+            1
+        ],
+        "times": {
+            "start": [
+                "02:18",
+                "10:18",
+                "18:18"
+            ],
+            "end": [
+                "06:18",
+                "14:18",
+                "22:18"
+            ]
+        }
+    },
+    "27": {
+        "day": 27,
+        "type": "strong",
+        "realm": "forest",
+        "location": "treehouse",
+        "rewards": {
+            "type": "ascended",
+            "amount": 3.5
+        },
+        "weekdaysExcluded": [
+            2,
+            3
+        ],
+        "times": {
+            "start": [
+                "02:28",
+                "08:28",
+                "14:28"
+            ],
+            "end": [
+                "06:28",
+                "12:28",
+                "18:28"
+            ]
+        }
+    },
+    "28": {
+        "day": 28,
+        "type": "regular",
+        "realm": "valley",
+        "location": "iceRink",
+        "rewards": {
+            "type": "wax",
+            "amount": 200
+        },
+        "weekdaysExcluded": [
+            0,
+            6
+        ],
+        "times": {
+            "start": [
+                "01:58",
+                "09:58",
+                "17:58"
+            ],
+            "end": [
+                "05:58",
+                "13:58",
+                "21:58"
+            ]
+        }
+    },
+    "29": {
+        "day": 29,
+        "type": "strong",
+        "realm": "wasteland",
+        "location": "forgottenArk",
+        "rewards": {
+            "type": "ascended",
+            "amount": 3.5
+        },
+        "weekdaysExcluded": [
+            3,
+            4
+        ],
+        "times": {
+            "start": [
+                "03:38",
+                "09:38",
+                "15:38"
+            ],
+            "end": [
+                "07:38",
+                "13:38",
+                "19:38"
+            ]
+        }
+    },
+    "30": {
+        "day": 30,
+        "type": "regular",
+        "realm": "vault",
+        "location": "starlightDesert",
+        "rewards": {
+            "type": "wax",
+            "amount": 200
+        },
+        "weekdaysExcluded": [
+            0,
+            1
+        ],
+        "times": {
+            "start": [
+                "02:18",
+                "10:18",
+                "18:18"
+            ],
+            "end": [
+                "06:18",
+                "14:18",
+                "22:18"
+            ]
+        }
+    },
+    "31": {
+        "day": 31,
+        "type": "strong",
+        "realm": "prairie",
+        "location": "prairieCaves",
+        "rewards": {
+            "type": "ascended",
+            "amount": 2
+        },
+        "weekdaysExcluded": [
+            1,
+            2
+        ],
+        "times": {
+            "start": [
+                "07:48",
+                "13:48",
+                "19:48"
+            ],
+            "end": [
+                "11:48",
+                "17:48",
+                "23:48"
+            ]
+        }
+    }
+}

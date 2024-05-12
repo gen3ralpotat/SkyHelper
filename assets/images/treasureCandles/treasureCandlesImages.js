@@ -5,7 +5,7 @@ import wasteland from './wasteland/index.js';
 import vault from './vault/index.js';
 
 const treasureCandlesImages = {
-    "praire": prairie,
+    "prairie": prairie,
     "forest": forest,
     "valley": valley,
     "wasteland": wasteland,

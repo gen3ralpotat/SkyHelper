@@ -3,6 +3,7 @@ import { StyleSheet, Text, View } from 'react-native';
 import { createMaterialTopTabNavigator } from '@react-navigation/material-top-tabs';
 import EventsScreen from '../screens/EventsScreen';
 import FarmingNavigator from './FarmingNavigator';
+import QuestsNavigator from './QuestsNavigator';
 
 const Tab = createMaterialTopTabNavigator();
 

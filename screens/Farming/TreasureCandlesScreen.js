@@ -22,24 +22,21 @@ function TreasureCandlesScreen({ navigation }) {
     switch (realmNumber = Math.floor(date/86400000) % 5) {
         case 2:
         case 4:
-            rotation = Math.floor(Math.floor(date/86400000)/5) % 2;
+            rotation = Math.floor(Math.floor(date/86400000)/5) % 2 + 1;
             break;
         case 0:
-            rotation = 1;
-            break;
         case 1:
-            rotation = 1;
-            break;
         case 3:
-            rotation = 1;
+            rotation = Math.floor(Math.floor(date/86400000)/5) % 3 + 1;
             break;
         default:
             console.log("realmNumber out of range");
             rotation = 1;
     };
-
-    console.log(realmNumber);
-    console.log(rotation);
+//
+    //console.log(realmNumber);
+    //console.log(rotation);
+    //console.log(Math.floor(Math.floor(date/86400000)/5) % 2);
 
     const treasureCandlesImage = treasureCandlesImages[`${realms[realmNumber]}`][`Rotation${rotation}`];
 
@@ -51,7 +48,7 @@ function TreasureCandlesScreen({ navigation }) {
             </View>
         </Screen>
     );
-}
+};
 
 const styles=StyleSheet.create({
     container: {
